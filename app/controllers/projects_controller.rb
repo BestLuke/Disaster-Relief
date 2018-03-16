@@ -1,5 +1,5 @@
 class ProjectsController < ApplicationController
     def index
-        @disasters = ['Hurricane', 'Tsunami', 'Earthquake', 'Volcanic Erruption']
+        @disasters = ['Hurricane', 'Tsunami', 'Earthquake', 'Volcanic Erruption', 'Bushfire', 'Hail Storm']
     end
 end
